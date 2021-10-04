@@ -9,7 +9,7 @@
     text-decoration: none;
   }
   .items:hover {
-    color: rgb(0, 85, 243);
+    color: rgb(219, 243, 0);
   }
   .menu-bar{
       display: flex;

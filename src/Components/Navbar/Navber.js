@@ -8,8 +8,7 @@ const Navber = () => {
         <div>
             
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Container
-  >
+  <Container>
   <Navbar.Brand href="#home" className="logo-name"> Courses Online</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -24,16 +23,12 @@ const Navber = () => {
                   <li>Services</li>
                 </Link>
                 <Link to="/about" className="items">
-                  <li>About</li>
+                  <li>About Us</li>
                 </Link>
                 <Link to="contact" className="items">
                   <li>Contact us</li>
                 </Link>
-              </ul>
-            
-
-
-     
+              </ul> 
     </Nav>
    
   </Navbar.Collapse>
