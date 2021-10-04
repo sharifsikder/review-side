@@ -13,13 +13,13 @@ const Service = (props) => {
            <Card className="card" style={{ width: '23rem' }}>
             <Card.Img variant="top" src={img} />
             <Card.Body>
-            <Card.Title>{name}</Card.Title>
+            <Card.Title className='card-tittle'>{name}</Card.Title>
             <Card.Text>
-            <h6>Instructor : {instructor}</h6>
+            <h5>Instructor : {instructor}</h5>
             <h6>Type : {type}</h6>
             <h6>Seat : {seat}</h6>
             <h6> Date : {date}</h6>
-            <h5>Price : {price}</h5>
+            <h3>Price : <span className='price'>{price}</span></h3>
             </Card.Text>
             <Button variant="outline-success">View More</Button>
             </Card.Body>

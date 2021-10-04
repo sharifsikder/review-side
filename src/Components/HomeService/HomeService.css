@@ -3,3 +3,12 @@
     margin: 0 auto !important;
     margin-top: 40px !important;
 }
+
+.card-name{
+    color: rgb(3, 150, 76);
+    font-size: 23px;
+    margin-bottom:15px;
+}
+.prices{
+    color:rgb(231, 67, 3)
+}

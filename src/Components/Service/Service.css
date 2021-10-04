@@ -9,3 +9,11 @@
 .card{
     border: 0 !important
 }
+.card-tittle{
+    color: rgb(3, 150, 76);
+    font-size: 25px;
+    margin-bottom:15px;
+}
+.price{
+    color:rgb(231, 67, 3)
+}

@@ -9,16 +9,16 @@ const HomeService = (props) => {
     return (
         
                <div className='service'>
-           <Card style={{ width: '18rem' }}>
+           <Card className="card" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={img} />
             <Card.Body>
-            <Card.Title>{name}</Card.Title>
+            <Card.Title className='card-name'>{name}</Card.Title>
             <Card.Text>
-            <h6>Instructor : {instructor}</h6>
+            <h5>Instructor : {instructor}</h5>
             <h6>Type : {type}</h6>
             <h6>Seat : {seat}</h6>
             <h6> Date : {date}</h6>
-            <h5>Price : {price}</h5>
+            <h4>Price : <span className='prices'>{price}</span></h4>
             </Card.Text>
             <Button variant="outline-success">View More</Button>
             </Card.Body>
