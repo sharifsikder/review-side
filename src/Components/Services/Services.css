@@ -2,13 +2,15 @@
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    
    
-
+    column-gap: 10px;
 }
+
 .services-section{
     margin-top: 30px !important;
+    margin-bottom: 50px;
+    padding: 0 40px;
+   
 }
 .services-section h1{
     color:rgb(4, 143, 39)

@@ -1,16 +1,15 @@
-import Button from 'react-bootstrap/Button';
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 import { Card } from 'react-bootstrap';
-import './Service.css'
+import './HomeService.css'
 
-const Service = (props) => {
-
+const HomeService = (props) => {
+    console.log(props.service)
     const{name, price, seat, instructor,date, img, type} =props.service
-
     return (
         
-           <div className='service'>
-           <Card className="card" style={{ width: '23rem' }}>
+               <div className='service'>
+           <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={img} />
             <Card.Body>
             <Card.Title>{name}</Card.Title>
@@ -25,9 +24,8 @@ const Service = (props) => {
             </Card.Body>
             </Card>
            </div>
-
-        
+    
     );
 };
 
-export default Service;
+export default HomeService;

@@ -1,0 +1,14 @@
+.home-services{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.services-home{
+    margin-top: 30px !important;
+    margin-bottom: 50px;
+    padding: 0 16px; 
+}
+.services-home h1{
+    color:rgb(4, 143, 39)
+}

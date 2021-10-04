@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import Button from 'react-bootstrap/Button';
-import  '../../images/about.jpg'
+import img from  '../../images/about.jpg'
 
 const About = () => {
     return (
@@ -10,10 +10,12 @@ const About = () => {
             <div className="about-section">
 
               <div>
-              <img src="../../images/about.jpg" alt =""/>
+
+                  <img src={img} className="w-100 rounded" alt="" />
+            
               </div>
               <div>
-               <h3>Hello, I’m <span className="name">Stella Spring</span>. My course helps to become successful in life.</h3>
+               <h3>Hello, I’m <span className="name">Stella Spring</span>. My course <br/> helps to become successful in life.</h3>
 
                <p>Nullam porta enim vel tellus commodo, eget laoreet odio ultrices. Etiam fringilla lobortis sapien sit amet cursus. Maecenas est orci, congue egestas lobortis vel, feugiat non tellus.</p>
 
@@ -32,7 +34,7 @@ const About = () => {
                    </div>
                </div>
 
-               <Button className="button">Read More</Button>
+               <Button className='button' variant="outline-success">Read More</Button>
 
               </div>
 

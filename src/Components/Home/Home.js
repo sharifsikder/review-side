@@ -1,14 +1,17 @@
 import React from 'react';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
-import Services from '../Services/Services';
+import HomeServices from '../HomeServices/HomeServices';
+
 
 const Home = () => {
     return (
         <div>
-            <Services></Services>
-            <About></About>
+            
+            <HomeServices></HomeServices>
             <Contact></Contact>
+            <About></About>
+           
         </div>
     );
 };
