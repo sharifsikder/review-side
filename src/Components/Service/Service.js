@@ -6,6 +6,7 @@ import './Service.css'
 const Service = (props) => {
 
     const{name, price, seat, instructor,date, img, type} =props.service
+    
     return (
         
            <div className='service'>

@@ -1,0 +1,49 @@
+.about-section{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin-top: 20px;
+    padding:15px;
+}
+.about-section p{
+    text-align: left;
+    width:80%;
+    margin-left: 50px;
+}
+.about-details h2{
+    color:#F6520A;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.about-container h1{
+   color:rgb(7, 190, 129)
+}
+
+.about-container h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-details{
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.name{
+    color:#F6520A;
+     font-size: 40px;
+     font-weight: 500;
+}
+.about-container{
+    margin-top:30px !important;
+    
+}
+.button{
+    margin-top: 30px !important;
+    background-color: #F6520A !important;
+    border: 0 !important;
+
+}

@@ -9,10 +9,10 @@ const Navber = () => {
             
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand href="#home" className="logo-name"> Courses Online</Navbar.Brand>
+  <Navbar.Brand href="#home" className="logo-name"><i class="fas fa-chalkboard-teacher"></i> Courses Online</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto">
+    <Nav className="ms-auto">
 
     
               <ul className="menu-bar ">
