@@ -18,10 +18,10 @@ const Service = (props) => {
             <h5>Instructor : {instructor}</h5>
             <h6>Type : {type}</h6>
             <h6>Seat : {seat}</h6>
-            <h6> Date : {date}</h6>
+          
             <h3>Price : <span className='price'>{price}</span></h3>
             </Card.Text>
-            <Button variant="outline-success">View More</Button>
+            <Button variant="outline-success">Enroll Now</Button>
             </Card.Body>
             </Card>
            </div>

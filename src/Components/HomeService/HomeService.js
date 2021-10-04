@@ -17,10 +17,10 @@ const HomeService = (props) => {
             <h5>Instructor : {instructor}</h5>
             <h6>Type : {type}</h6>
             <h6>Seat : {seat}</h6>
-            <h6> Date : {date}</h6>
+           
             <h4>Price : <span className='prices'>{price}</span></h4>
             </Card.Text>
-            <Button variant="outline-success">View More</Button>
+            <Button variant="outline-success">Enroll Now</Button>
             </Card.Body>
             </Card>
            </div>
